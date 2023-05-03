@@ -79,6 +79,15 @@ header p{
     text-decoration: none;
     color:#EEF3F7
 }
+.redBtn{
+    background-color: #FF6464;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: none;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
 /*SEARCH*/
 .search{
     display: flex;
@@ -246,3 +255,12 @@ section a{
     background-color: #7D4CFF;
   }
   
+  /*SECTION CALL*/
+  #section-call img{
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
