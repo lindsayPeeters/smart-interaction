@@ -54,6 +54,15 @@ header .backbtn{
     grid-column: 1;
     padding-left: 16px;
 }
+header p{
+    font-family: 'Nunito', sans-serif;
+}
+#headerCall div{
+    grid-column: 2;
+}
+#headerCall div p{
+    margin-top: -16px;
+}
 /*BUTTONS*/
 .purpleBtn{
     background-color: #7D4CFF;
