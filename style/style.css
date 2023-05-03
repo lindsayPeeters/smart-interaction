@@ -20,6 +20,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.littleText{
+    font-size: smaller;
+}
+/*LOGO*/
+.logo{
+    margin-left: 50%;
+    transform: translate(-50%, 20%);
+}
 /*HEADER*/
 header{
     background-color: #7D4CFF;
@@ -110,6 +118,9 @@ section{
 section a{
     text-decoration: none;
     color: black;
+}
+section p a{
+    color:#7D4CFF;
 }
 /*PROFILE SECTION*/
 #section-profile h2,#section-secretWords h2, section h2{
@@ -263,4 +274,15 @@ section a{
     width: 200px;
     height: 200px;
     display: block;
+  }
+  /*SECTION LOGIN*/
+  #section-login{
+    margin-top: 42px;
+  }
+  #section-login input{
+    background-color: transparent;
+    border: 1px solid #D0D5D9;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
   }
