@@ -45,5 +45,13 @@
             </ul>
         </nav>
     </header>
+    <section class="section-available">
+        <p>I'm available</p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+
+    </section>
 </body>
 </html>
