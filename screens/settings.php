@@ -55,7 +55,7 @@
             <!--input phonenumber-->
             <div class="textInput" id="phonenumber">
                 <label for="phonenumber">Phone number</label><br>
-                <input type="phonenumber" name="phonenumber" id="phonenumber" placeholder="+00 000 000 000" value="">
+                <input type="tel" name="phonenumber" id="phonenumber" placeholder="+00 000 000 000" value="">
                 <button type="submit">
                     <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.09671 13.0417H3.52074L12.2938 6.21354L10.8698 5.1052L2.09671 11.9333V13.0417ZM16.6422 5.06562L12.3192 1.74062L13.7432 0.632287C14.1332 0.328814 14.6121 0.177078 15.18 0.177078C15.7479 0.177078 16.2268 0.328814 16.6167 0.632287L18.0408 1.74062C18.4307 2.04409 18.6341 2.41024 18.6511 2.83906C18.668 3.26788 18.4815 3.63402 18.0916 3.93749L16.6422 5.06562ZM15.1673 6.23333L4.38533 14.625H0.0623779V11.2604L10.8443 2.86875L15.1673 6.23333Z" fill="#1C1B1F"/>
@@ -66,6 +66,30 @@
     </section>
     <section id="section-secretWords">
         <h2>Secret words</h2>
+        <!--Flashlight-->
+        <label for="flashlight">Flashlight</label>
+        <select id="flashlight" name="flashlight">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="grape">Grape</option>
+        </select><br><br>
+        <!--Alarmsound-->
+        <label for="alarmsound">Alarmsound</label>
+        <select id="alarmsound" name="alarmsound">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="grape">Grape</option>
+        </select><br><br>
+        <label for="flashlight">Flashlight</label>
+        <select id="flashlight" name="flashlight">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="grape">Grape</option>
+        </select><br>
     </section>
+    <button class="purpleBtn"><a href="">Log out</a></button>
 </body>
 </html>
