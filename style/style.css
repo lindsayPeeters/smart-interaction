@@ -65,11 +65,23 @@ header .backbtn{
     margin-left: 50%;
     margin-top: 64px;
     transform: translate(-50%, -50%);
-
 }
 .purpleBtn a{
     text-decoration: none;
     color:#EEF3F7
+}
+/*SEARCH*/
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.search input{
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #D0D5D9;
 }
 /*SECTION*/
 section{
