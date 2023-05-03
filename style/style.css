@@ -11,6 +11,9 @@ body{
     font-family: 'Nunito', sans-serif;
     background-color: #EEF3F7;
 }
+h1{
+    font-family: 'Recoleta', sans-serif;
+}
 .circle{
     border-radius: 50%;
     height: 40px;
@@ -285,4 +288,18 @@ section p a{
     border-radius: 4px;
     padding: 8px;
     width: 100%;
+  }
+  /*SIGNUP FORM*/
+  #signUp{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  #signUp input{
+    background-color: transparent;
+    width: 94%;
+    border: 1px solid #D0D5D9;
+    padding: 8px;
+    border-radius: 4px;
+
   }

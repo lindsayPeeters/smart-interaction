@@ -90,6 +90,6 @@
             <option value="grape">Grape</option>
         </select><br>
     </section>
-    <button class="purpleBtn"><a href="">Log out</a></button>
+    <button class="purpleBtn"><a href="./login.php">Log out</a></button>
 </body>
 </html>
