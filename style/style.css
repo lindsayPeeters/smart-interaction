@@ -94,7 +94,7 @@ section a{
     color: black;
 }
 /*PROFILE SECTION*/
-#section-profile h2,#section-secretWords h2{
+#section-profile h2,#section-secretWords h2, section h2{
     background-color: #9777F4;
     color: #EEF3F7;
     padding: 8px;
