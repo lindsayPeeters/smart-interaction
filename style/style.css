@@ -8,7 +8,9 @@
   }
 body{
     margin: 16px;
+    font-family: 'Nunito', sans-serif;
 }
+/*HEADER*/
 header{
     background-color: #7D4CFF;
     font-family: 'Recoleta', sans-serif;
@@ -41,4 +43,13 @@ header nav ul{
 header .backbtn{
     grid-column: 1;
     padding-left: 16px;
+}
+/*SECTION*/
+section{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+section a{
+    text-decoration: none;
+    color: black;
 }
