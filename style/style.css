@@ -9,6 +9,7 @@
 body{
     margin: 16px;
     font-family: 'Nunito', sans-serif;
+    background-color: #EEF3F7;
 }
 /*HEADER*/
 header{
@@ -52,4 +53,53 @@ section{
 section a{
     text-decoration: none;
     color: black;
+}
+/*PROFILE SECTION*/
+#section-profile form label{
+    color: #9777F4;
+}
+#section-profile form input{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+#section-profile form button{
+    border: none;
+    background-color: transparent;
+    margin-left: -32px;
+}
+#section-profile form .textInput{
+    position: relative;
+}
+#section-profile form #username::before{
+    content: "";
+    background-image: url("../images/profile.jpg");
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;    
+}
+#section-profile form #password::before{
+    content: "";
+    background-image: url("../images/password.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;    
+}
+#section-profile form #phonenumber::before{
+    content: "";
+    background-image: url("../images/phonenumber.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;    
 }
