@@ -18,4 +18,26 @@ header{
     height: 83px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: grid;
+    grid-template-columns:  1fr 2fr 1fr;
+    align-items: baseline;
+}
+header h1{
+    grid-column: 2;
+}
+header nav{
+    grid-column: 3;
+    margin: 0px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: -16px;
+    margin-right: 8px;
+    padding: 8px;
+    gap: 8px;
+}
+header .backbtn{
+    grid-column: 1;
+    padding-left: 16px;
 }
