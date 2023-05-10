@@ -18,7 +18,7 @@
         <input type="text" id="lname" name="lname"><br><br>
         <label for="password">Password</label><br>
         <input type="password" id="password" name="password"><br><br>
-        <button type="submit" class="purpleBtn"><a href="./tutorial01.php">Create account</a></button><br>
+        <button type="submit" class="purpleBtn"><a href="tutorial01.php">Create account</a></button><br>
     </form>
 </body>
 </html>

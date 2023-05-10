@@ -23,6 +23,15 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.whiteContainer{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
 .littleText{
     font-size: smaller;
 }
@@ -30,6 +39,13 @@ h1{
 .logo{
     margin-left: 50%;
     transform: translate(-50%, 20%);
+}
+/*ILLUSTRATION*/
+.whiteContainer img{
+    max-width: 200px;
+    max-height: 200px;
+    position: center;
+    margin-top: 25%;
 }
 /*HEADER*/
 header{
@@ -98,6 +114,10 @@ header p{
     border: none;
     margin-left: 50%;
     transform: translate(-50%, -50%);
+}
+.short{
+    width: 42px;
+    height: 42px;
 }
 /*SEARCH*/
 .search{
@@ -288,6 +308,10 @@ section p a{
     border-radius: 4px;
     padding: 8px;
     width: 100%;
+  }
+  /*SECTION ILLUSTRATON*/
+  #section-illustration{
+    margin-bottom: -25%;
   }
   /*SIGNUP FORM*/
   #signUp{
